@@ -6,7 +6,7 @@ document.getElementById("answer2").onclick = function basketball2() {
 };
 document.getElementById("answer3").onclick = function basketball3() {
   document.getElementById("question1").innerHTML = ``;
-  document.getElementById("to").innerText = "?איזו קבוצה זכתה בגביע המדינה";
+  document.getElementById("to").innerText = "?איזו קבוצה זכתה בשנת 2022 בגביע המדינה";
   document.getElementById("answer5").innerText = "בני הרצליה";
   document.getElementById("answer6").innerText = "הפועל תל אביב";
   document.getElementById("answer7").innerText = "מכבי תל אביב";
@@ -55,7 +55,7 @@ document.getElementById("answer13").onclick = function basketball13() {
 };
 document.getElementById("answer14").onclick = function basketball14() {
   document.getElementById("question4").innerHTML = ``;
-  document.getElementById("to").innerText = "?NBAמי האלופה הנוכחית ב";
+  document.getElementById("to").innerText = "?NBAמי האלופה הנוכחית לשנת 2020-2021 ב";
   document.getElementById("answer17").innerText = "Golden State Warriors";
   document.getElementById("answer18").innerText = "Milwaukee Bucks";
   document.getElementById("answer19").innerText = "Los Angeles Lakers";
