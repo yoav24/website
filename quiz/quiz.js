@@ -1,9 +1,13 @@
+function mistake(mistakes) {
+  mistakes+1
+  return mistakes
+  }
 document.getElementById("answer1").onclick = function basketball() {
   document.getElementById("final1").innerText = "תשובה לא נכונה";
 };
 document.getElementById("answer2").onclick = function basketball2() {
-  document.getElementById("final1").innerText = "תשובה לא נכונה";
-};
+  document.getElementById("final1").innerText = "תשובה לא נכונה";  
+  };
 document.getElementById("answer3").onclick = function basketball3() {
   document.getElementById("question1").innerHTML = ``;
   document.getElementById("to").innerText = "?איזו קבוצה זכתה בשנת 2022 בגביע המדינה";
@@ -17,7 +21,7 @@ document.getElementById("answer4").onclick = function basketball4() {
 };
 document.getElementById("answer5").onclick = function basketball5() {
   document.getElementById("question2").innerHTML = ``;
-  document.getElementById("to").innerText = "?עכשיו NBAאיזה משחק ב";
+  document.getElementById("to").innerText = "?עכשיו NBAאיזה שחקן משחק ב";
   document.getElementById("answer9").innerText = "ג'יימס יאנג";
   document.getElementById("answer10").innerText = "סקוטי ולבקין";
   document.getElementById("answer11").innerText = "דני אבדיה";
@@ -102,6 +106,7 @@ document.getElementById("answer24").onclick = function basketball24() {
   document.getElementById("answer26").innerText = "6-1";
   document.getElementById("answer27").innerText = "5-2";
   document.getElementById("answer28").innerText = "5-0";
+  document.getElementById("link").innerText =":לדף הבית"
 };
 document.getElementById("answer25").onclick = function basketball25() {
     document.getElementById("final1").innerText = "תשובה לא נכונה";
@@ -113,5 +118,5 @@ document.getElementById("answer25").onclick = function basketball25() {
     document.getElementById("final1").innerText = "תשובה לא נכונה";
   };
   document.getElementById("answer28").onclick = function basketball28() {
-    document.getElementById("final1").innerText = "תשובה נכונה";
+    document.getElementById("final1").innerText = ` סיימת את החידון עם ${mistake(0)} טעויות`
   };
